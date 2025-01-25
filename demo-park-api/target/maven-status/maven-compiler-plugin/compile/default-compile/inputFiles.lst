@@ -1,6 +1,15 @@
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Config/SpringDocOpenApiConfig.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Config/SpringTimeZoneConfig.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/DemoParkApiApplication.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Entity/Usuario.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Exception/EntityNotFoundException.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Exception/UsernameUniqueViolationException.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Repository/UsuarioRepository.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Service/UsuarioService.java
-/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Web/Controller/UsuarioController.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/Exception/ApiExceptionHandler.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/Exception/ErrorMessage.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/controller/UsuarioController.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/UsuarioCreateDto.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/UsuarioResponseDto.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/UsuarioSenhaDto.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/mapper/UsuarioMapper.java

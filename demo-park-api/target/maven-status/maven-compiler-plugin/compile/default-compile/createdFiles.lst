@@ -1,5 +1,15 @@
 com/lcsz/demo_park_api/Repository/UsuarioRepository.class
+com/lcsz/demo_park_api/web/dto/UsuarioCreateDto.class
+com/lcsz/demo_park_api/Exception/UsernameUniqueViolationException.class
 com/lcsz/demo_park_api/Service/UsuarioService.class
-com/lcsz/demo_park_api/Web/Controller/UsuarioController.class
+com/lcsz/demo_park_api/Exception/EntityNotFoundException.class
 com/lcsz/demo_park_api/Entity/Usuario$Role.class
+com/lcsz/demo_park_api/Config/SpringDocOpenApiConfig.class
+com/lcsz/demo_park_api/web/dto/UsuarioResponseDto.class
+com/lcsz/demo_park_api/web/controller/UsuarioController.class
+com/lcsz/demo_park_api/web/dto/mapper/UsuarioMapper.class
+com/lcsz/demo_park_api/web/Exception/ErrorMessage.class
 com/lcsz/demo_park_api/Entity/Usuario.class
+com/lcsz/demo_park_api/web/dto/mapper/UsuarioMapper$1.class
+com/lcsz/demo_park_api/web/dto/UsuarioSenhaDto.class
+com/lcsz/demo_park_api/web/Exception/ApiExceptionHandler.class

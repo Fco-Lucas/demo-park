@@ -27,7 +27,7 @@ public class Usuario implements Serializable { // Quando se trabalhamos com JPA 
 
     @Enumerated(EnumType.STRING)
     @Column(name = "role", nullable = false, length = 25)
-    private Role role;
+    private Role role = Role.ROLE_CLIENTE;
 
     @Column(name = "dataCriacao")
     private LocalDateTime dataCriacao;
