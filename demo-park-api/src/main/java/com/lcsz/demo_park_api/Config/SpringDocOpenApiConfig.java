@@ -15,11 +15,11 @@ public class SpringDocOpenApiConfig {
         return new OpenAPI()
                 .info(
                         new Info()
-                                .title("REST API - SPRING PARK")
+                                .title("REST API - Spring Park")
                                 .description("API para gestão de estacionamentos de veículos")
                                 .version("v1")
-                                .license(new License().name("Apache 2.0").url(""))
-                                .contact(new Contact().name("Francisco Lucas").email("teste@123"))
+                                .license(new License().name("Apache 2.0").url("https://www.apache.org/licenses/LICENSE-2.0"))
+                                .contact(new Contact().name("Fco Lucas").email("teste@123"))
                 );
     }
 }
