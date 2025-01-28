@@ -1,5 +1,6 @@
 package com.lcsz.demo_park_api.web.Exception;
 
+import com.lcsz.demo_park_api.Exception.CodigoUniqueViolationException;
 import com.lcsz.demo_park_api.Exception.CpfUniqueViolationException;
 import com.lcsz.demo_park_api.Exception.EntityNotFoundException;
 import com.lcsz.demo_park_api.Exception.UsernameUniqueViolationException;
@@ -38,7 +39,7 @@ public class ApiExceptionHandler {
                 .body(new ErrorMessage(request, HttpStatus.UNPROCESSABLE_ENTITY, "Campo(s) inválido(s)", result));
     }
 
-    @ExceptionHandler({UsernameUniqueViolationException.class, CpfUniqueViolationException.class})
+    @ExceptionHandler({UsernameUniqueViolationException.class, CpfUniqueViolationException.class, CodigoUniqueViolationException.class})
     public ResponseEntity<ErrorMessage> uniqueViolationException(RuntimeException ex, HttpServletRequest request) {
         log.error("Api Error - ", ex);
         return ResponseEntity

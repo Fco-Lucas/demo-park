@@ -5,14 +5,18 @@
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/DemoParkApiApplication.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Entity/Cliente.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Entity/Usuario.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Entity/Vaga.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Exception/CodigoUniqueViolationException.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Exception/CpfUniqueViolationException.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Exception/EntityNotFoundException.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Exception/UsernameUniqueViolationException.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Repository/ClienteRepository.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Repository/UsuarioRepository.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Repository/VagaRepository.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Repository/projection/ClienteProjection.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Service/ClienteService.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Service/UsuarioService.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/Service/VagaService.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/jwt/JwtAuthenticationEntryPoint.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/jwt/JwtAuthorizationFilter.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/jwt/JwtToken.java
@@ -24,6 +28,7 @@
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/controller/AutenticacaoController.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/controller/ClienteController.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/controller/UsuarioController.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/controller/VagaController.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/ClienteCreateDto.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/ClienteResponseDto.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/PageableDto.java
@@ -31,6 +36,9 @@
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/UsuarioLoginDto.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/UsuarioResponseDto.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/UsuarioSenhaDto.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/VagaCreateDto.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/VagaResponseDto.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/mapper/ClienteMapper.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/mapper/PagebleMapper.java
 /home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/mapper/UsuarioMapper.java
+/home/lucas/DevelopmentsProjects/demo-park/demo-park-api/src/main/java/com/lcsz/demo_park_api/web/dto/mapper/VagaMapper.java
