@@ -1,10 +1,7 @@
 package com.lcsz.demo_park_api.Entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;
 import org.springframework.data.annotation.LastModifiedDate;
@@ -32,7 +29,7 @@ public class Vaga implements Serializable {
 
     @Column(name = "status", nullable = false)
     @Enumerated(EnumType.STRING)
-    private StatusVagas status;
+    private StatusVaga status;
 
     @CreatedDate
     @Column(name = "dataCriacao")
@@ -50,7 +47,7 @@ public class Vaga implements Serializable {
     @Column(name = "modificadoPor")
     private String modificadoPor;
 
-    public enum StatusVagas {
+    public enum StatusVaga {
         LIVRE, OCUPADA
     }
 
